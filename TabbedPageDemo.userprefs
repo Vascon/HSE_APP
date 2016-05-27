@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="TabbedPageDemo/TabbedPageDemo.iOS/TabbedPageDemo.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Xamarin_Android_API_23" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TabbedPageDemo/TabbedPageDemo/packages.config" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/Properties/AndroidManifest.xml" Line="5" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

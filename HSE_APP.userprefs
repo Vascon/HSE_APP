@@ -1,0 +1,46 @@
+﻿<Properties StartupItem="TabbedPageDemo/TabbedPageDemo.iOS/HSE_APP.iOS.csproj" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.9.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TabbedPageDemo/TabbedPageDemo/UpcomingAppointmentsPage.xaml.cs">
+    <Files>
+      <File FileName="TabbedPageDemo/TabbedPageDemo/MPage.xaml" Line="59" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/UpcomingAppointmentsPage.xaml.cs" Line="48" Column="5" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/ListViewCustomRenderer.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/packages.config" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/TabbedPageCustomRenderer.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/LoginPassword.cs" Line="8" Column="36" />
+      <File FileName="../HSE_APP.diff" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/com/companyname/tabbedpagewithnavigationpage/R (2).java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/com/companyname/tabbedpagewithnavigationpage/R.java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/md5530bd51e982e6e7b340b73e88efe666e/AHorizontalScrollView (2).java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/md5530bd51e982e6e7b340b73e88efe666e/ActionSheetRenderer (2).java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/md5530bd51e982e6e7b340b73e88efe666e/BaseCellView (2).java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.Android/obj/Debug/android/src/md5530bd51e982e6e7b340b73e88efe666e/PageContainer (2).java" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/UpcomingAppointmentsPage.xaml" Line="9" Column="2" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/MPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/Events.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/Games.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo/ListViewID.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.iOS/TabbedPageCustomRenderer.cs" Line="1" Column="1" />
+      <File FileName="TabbedPageDemo/TabbedPageDemo.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HSE_APP" expanded="True">
+            <Node name="HSE_APP" expanded="True">
+              <Node name="UpcomingAppointmentsPage.xaml" expanded="True">
+                <Node name="UpcomingAppointmentsPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="HSE_APP.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

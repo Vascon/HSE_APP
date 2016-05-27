@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ 
+xmlns:local="clr-namespace:HSE_APP;assembly=HSE_APP"
+
+x:Class="HSE_APP.MPage">
+
+
+
+<TabbedPage.Children>
+
+
+<ContentPage Title="Лента" Icon="today.png" >
+<StackLayout Padding="5, 25">
+
+	<Image Source="https://www.hse.ru/data/2014/06/25/1309036641/logo_с_hse_black_e.jpg"
+	                 WidthRequest="100" 
+	                 HeightRequest="100" />
+
+
+	<ListView ItemTapped="MyTap" x:Name="ListView1" >
+	<ListView.ItemTemplate>
+    <DataTemplate>
+        <ImageCell
+            Text="{Binding game}" 
+            Detail="{Binding time, StringFormat='{0}'}"
+            ImageSource="{Binding picture}">
+        </ImageCell>
+    </DataTemplate>
+    </ListView.ItemTemplate>
+
+	</ListView>
+
+</StackLayout>
+</ContentPage>
+
+
+<!--<ContentPage Title="Обо мне" Icon="monkeyicon.png" >
+<StackLayout Padding="5, 25">
+		
+		<Image Source="https://www.hse.ru/data/2014/06/25/1309036641/logo_с_hse_black_e.jpg"
+					WidthRequest="100" 
+					HeightRequest="100" />
+		<Label x:Name="email_label" Text="E-Mail:" HorizontalOptions="Center" />
+		<Entry/> 
+		<Label x:Name="password_label" Text="Пароль:" HorizontalOptions="Center" />
+		<Entry/> 
+		<Button Text="Войти" x:Name="Login_Button" Clicked="OnLoginButtonClicked" />      
+</StackLayout>
+</ContentPage>
+-->
+
+
+<ContentPage Title="Добавить" Icon="schedule.png" >
+<StackLayout Padding="5, 25">
+	<Image Source="https://www.hse.ru/data/2014/06/25/1309036641/logo_с_hse_black_e.jpg"
+	                 WidthRequest="100" 
+	                 HeightRequest="100" />
+	<Label Text="Выбрать игру:" HorizontalOptions="Center" />
+
+	<ListView ItemSelected="ItemSelected_Game" x:Name="ListView2">
+	<ListView.ItemTemplate>
+    <DataTemplate>
+        <ImageCell
+            Text="{Binding name}" 
+            Detail="{Binding description, StringFormat='{0}'}"
+            ImageSource="{Binding picture}">
+        </ImageCell>
+    </DataTemplate>
+    </ListView.ItemTemplate>
+    </ListView>
+
+	<Label Text="Место:" HorizontalOptions="Center" />
+	<Entry x:Name="event_Place" />
+	<Label Text="Дата и время:" HorizontalOptions="Center" />
+	<Entry x:Name="event_Time" />
+	<Label Text="(Формат ввода: 2012-05-20 16:00:00)" HorizontalOptions="Center" FontSize="Small"/>
+	<Button Text="Создать" Clicked="create_Event_Button"/>
+</StackLayout>
+</ContentPage>
+
+
+<ContentPage Title="О разработчиках" Icon="settings.png" >
+<StackLayout Padding="5, 25">
+	<Image Source="https://www.hse.ru/data/2014/06/25/1309036641/logo_с_hse_black_e.jpg"
+	                 WidthRequest="100" 
+	                 HeightRequest="100" />
+	<Label Text="Над проектом работали" HorizontalOptions="Center" />
+	<Label Text="студенты ДКИ НИУ ВШЭ" HorizontalOptions="Center" />
+	<Label Text="(группа БИВ-135):" HorizontalOptions="Center" />
+	<Label Text="Васильев Константин" HorizontalOptions="Center" />
+	<Label Text="Галайко Никита" HorizontalOptions="Center" />
+	<Label Text="Латышев Евгений" HorizontalOptions="Center" />
+	<Label Text="Левченко Софья" HorizontalOptions="Center" />
+	<Label Text="Королькова Елизавета" HorizontalOptions="Center" />
+	<Label Text="Уланова Арина" HorizontalOptions="Center" />
+</StackLayout>
+</ContentPage>
+
+</TabbedPage.Children>
+
+</TabbedPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.tabbedpagewithnavigationpage" android:versionCode="1" android:versionName="1.1">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:icon="@drawable/icon_48x48" android:label="Strogames" android:theme="@android:style/Theme.Material.Light" android:name="mono.android.app.Application" android:allowBackup="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Strogames" android:name="md5fef4d7baabe4e5cb77761ace866b8793.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.tabbedpagewithnavigationpage.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
